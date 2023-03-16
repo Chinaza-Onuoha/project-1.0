@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: red;
+	height: 100%;
+	width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* generic styles */
+li{
+    list-style: none;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header_container,
+.main_container,
+.footer_container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container_item {
+	width: 90vw;
+	min-height: inherit;
+}
+.item_one {
+	background: fuchsia;
+	min-height: 50vh;
+}
+.item_two {
+	background: aliceblue;
+	min-height: 50vh;
+}
+.item_three {
+	background: lawngreen;
+	min-height: 50vh;
+}
+.item_four {
+	background: green;
+    min-height: 25vh;
+}
+
+/* header */
+.header_container {
+	background: yellow;
+	min-height: 80vh;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+.navbar {
+    width: 90vw;
+	background: green;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 0.9em;
+   padding: 0.5em 0;
+
+
+}
+.logo{
+    flex-grow: 2;
+  
+}
+.navbar_ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 2;
+}
+
+/* main body */
+.main_container {
+	background: green;
+	min-height: 100vh;
+	gap: 10px;
+    padding: 1em 0;
+}
+
+.qoute{
+background: white;
+width: 40%;
+height: 50%;
+text-align: center;
+margin: 0 auto;
+font-size: 1.1em;
+}
+
+/* footer */
+.footer_container {
+	background: white;
+	min-height: 40vh;
+}
+
+/* Screen sizes */
+@media screen and (min-width: 320px) {
+	.header_container {
+		background: gray;
+	}
+	.main_container {
+		background: red;
+	}
+	.footer_container {
+		background: black;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.header_container {
+		background: blue;
+	}
+	.main_container {
+		background: indigo;
+	}
+	.footer_container {
+		background: purple;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.header_container {
+		background: yellow;
+	}
+	.main_container {
+		background: orange;
+	}
+	.footer_container {
+		background: white;
+	}
+}
