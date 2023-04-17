@@ -1,143 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1.0 | Log In</title>
-     <link rel="stylesheet" href="../fontawesome/css/all.css" />
-            <link rel="stylesheet" href="../fontawesome/css/brands.css" />
-            <script src="../fontawesome/js/brands.js"></script>
-            <script src="../fontawesome/js/solid.js"></script>
-            <script src="../fontawesome/js/all.min.js"></script>
-            <link rel="stylesheet" href="../css/form.css">
-    
-</head>
-<body class="flex-column-center">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project 1.0 | Log In</title>
+		<link rel="stylesheet" href="../fontawesome/css/all.css" />
+		<link rel="stylesheet" href="../fontawesome/css/brands.css" />
+		<script src="../fontawesome/js/brands.js"></script>
+		<script src="../fontawesome/js/solid.js"></script>
+		<script src="../fontawesome/js/all.min.js"></script>
+		<link rel="stylesheet" href="../css/form.css" />
+	</head>
+	<body class="flex-column-center">
 		<header class="header">
-			<div class="logo title">DEAZA</div>
+			<div class="logo title"><span>DEAZA</span></div>
 		</header>
 		<main class="main flex-row-between">
 			<section class="left flex-row-center">
 				<div class="headline flex-column-around">
 					<h2 class="title">DEAZA</h2>
 					<p class="title_text">
-						Get your free workspace, show you how to track important home listing
-						metric in your location
+						Get your free workspace, show you how to track important home
+						listing metric in your location
 					</p>
 				</div>
 
-                <div class="profile">
-                    <h1 class="picture">D</h1>
-                    <h3 class="position">Agent</h3>
-                    <h3 class="name">David</h3>
-
-                </div>
+				<div class="profile">
+					<div class="picture"><h1>D</h1></div>
+					<h3 class="position">Agent</h3>
+					<h3 class="name">David</h3>
+				</div>
 			</section>
+
 			<section class="right flex-column">
 				<form action="" class="form flex-column-around">
 					<div class="title_wrapper">
-						<h2 class="title">Log In</h2>
+						<h2 class="title ">Login</h2>
 					</div>
 
+					<div class="input_wrapper flex-column">
+						<label for="email" class="title title_form">Email</label>
+						<div class="input_body">
+							<i class="fa fa-envelope form_icon"></i>
+							<input
+								type="email"
+								class="input"
+								placeholder="Enter your email"
+							/>
+						</div>
+					</div>
 
-            
-                    <div class="input_wrapper flex-column">
-                        <label for="email" class="title title_form">Email</label>
-                        <div class="input_body">
-                            <i class="fa fa-envelope form_icon"></i>
-                             <input type="email" class="input" placeholder="Enter your email">
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="input_wrapper flex-column">
-                        <label for="password" class="title title_form">Password</label>
-                        <div class="input_body">
-                            <i class="fa fa-lock form_icon"></i>
-                            <input type="password" class="input" placeholder="Enter your password">
-                             <i class="fa fa-eye form_icon "></i>
-                        </div>
-                    </div>
-                    
+					<div class="input_wrapper flex-column">
+						<label for="password" class="title title_form">Password</label>
+						<div class="input_body">
+							<i class="fa fa-lock form_icon"></i>
+							<input
+								type="password"
+								class="input"
+								placeholder="Enter your password"
+							/>
+							<i class="fa fa-eye form_icon"></i>
+						</div>
+					</div>
 
-                    <div class="button_wrapper"><button class="btn_primary">Login</button></div>
-                    <div class="term_condition">
-                        <p class="title_text">Don't have an account? <a href="./signup.html" class="link_here">Signup Here</a></p>
-                    </div>
+					<div class="input_wrapper forget_password_wrapper flex-row-between">
+						<div class="remember_me flex-row">
+							<input class="checkbox" type="checkbox" name="check"  />
+							<h3 class="primary_color">Remember me</h3>
+						</div>
+						<div class="forget_password">
+							<a href="#" class="primary_color ">Forgot Password?</a>
+						</div>
+					</div>
 
+					<div class="button_wrapper">
+						<button class="btn_primary">Login</button>
+					</div>
+					<div class="term_condition">
+						<p class="title_text">
+							Don't have an account?
+							<a href="./signup.html" class="link_here btn">Sign Up Here</a>
+						</p>
+					</div>
 				</form>
 			</section>
 		</main>
-            <footer class="footer ">
-                <div class="footer_top ">
-                    <div class="footer_list flex-column">
-                        <h2 class="title">USEFUL LINKS</h2>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">Home</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">Services</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">About Us</a>
-                        </div>    
-                    </div>
+		<footer class="footer">
+			<div class="footer_top">
+				<div class="footer_list flex-column">
+					<h2 class="title">USEFUL LINKS</h2>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">Home</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">Services</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">About Us</a>
+					</div>
+				</div>
 
-                    <div class="footer_list">
-                        <h2 class="title">SERVICES</h2>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">Rental</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">Advisory</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">Investment</a>
-                        </div>    
-                    </div>
+				<div class="footer_list">
+					<h2 class="title">SERVICES</h2>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">Rental</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">Advisory</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">Investment</a>
+					</div>
+				</div>
 
-                    <div class="footer_list">
-                        <h2 class="title">CONTACT</h2>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper " ><i class="fa-solid fa-envelope "></i></div>
-                            <a href="#" class="title">Email</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-facebook"></i></div>
-                            <a href="#" class="title">Facebook</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-brands fa-linkedin"></i></div>
-                            <a href="#" class="title">LinkedIn</a>
-                        </div> 
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-solid fa-mobile "></i></div>
-                            <a href="#" class="title">Phone Numer</a>
-                        </div>
-                        <div class="title_wrapper">
-                            <div class="icon_wrapper"><i class="fa-solid fa-mobile "></i></div>
-                            <a href="#" class="title">Address</a>
-                        </div>    
-                    </div>
-                </div>
+				<div class="footer_list">
+					<h2 class="title">CONTACT</h2>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<a href="#" class="title">Email</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-facebook"></i>
+						</div>
+						<a href="#" class="title">Facebook</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-brands fa-linkedin"></i>
+						</div>
+						<a href="#" class="title">LinkedIn</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-solid fa-mobile"></i>
+						</div>
+						<a href="#" class="title">Phone Numer</a>
+					</div>
+					<div class="title_wrapper">
+						<div class="icon_wrapper flex-row-center">
+							<i class="fa-solid fa-mobile"></i>
+						</div>
+						<a href="#" class="title">Address</a>
+					</div>
+				</div>
+			</div>
 
-                <div class="footer_down flex-row-between">
-                    <div class="left">
-                        <p class="title_text">Copyright &copy; 2023 <a href="#">DEAZA</a> All right reserve.</p>
-                    </div>
-                    <div class="right">
-                        <p class="title_text"><a href="#">Terms</a> and <a href="#">Condition</a> and <a href="#">Privacy Policy</a></p>
-                    </div>
-                </div>
-           </footer>
-          
-         
+			<div class="footer_down flex-row-between">
+				<div class="left">
+					<p class="title_text">
+						Copyright &copy; 2023 <a href="#">DEAZA</a> All right reserve.
+					</p>
+				</div>
+				<div class="right">
+					<p class="title_text">
+						<a href="#">Terms</a> and <a href="#">Condition</a> and
+						<a href="#">Privacy Policy</a>
+					</p>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
